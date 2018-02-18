@@ -66,9 +66,16 @@ li a:hover {
 
 /*########### Left and right sides #############*/
 
-.left-side {
+.left-side, .right-side {
+  float: left;
   width: 50%;
-  /*  height: 200px;*/
+  text-align: center;
+}
+
+.iphone-img {
+  height: 50vh;
+  width: auto;
+  
 }
 
 /*################### Footer ###################*/
