@@ -1,0 +1,93 @@
+body {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 2vh;
+  margin: 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+main {
+  margin-top: 13vh;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/*############ Nav bar #############*/
+
+header {
+  background: linear-gradient(#37474f, #263238);
+  height: 12vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  overflow: hidden;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  float: right;
+  line-height: 12vh;
+}
+
+li {
+  list-style: none;
+  float: left;
+  margin-right: 2vw;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #6fb98f;
+}
+
+.logo {
+  color: #6fb98f;
+  font-size: 4vh;
+  float: left;
+  line-height: 12vh;
+}
+
+/*########### Left and right sides #############*/
+
+.left-side {
+  width: 50%;
+  /*  height: 200px;*/
+}
+
+/*################### Footer ###################*/
+
+footer {
+  background-color: #263238;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+@media (max-width: 1000px) {
+  .left-side {
+    width: 100%;
+  }
+
+  .right-side {
+    width: 100%;
+  }
+
+}
