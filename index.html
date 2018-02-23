@@ -3,7 +3,7 @@
 
 <head>
   <title>azChat - Web</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css?ver=1">
   <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
 </head>
 
@@ -21,7 +21,7 @@
   </header>
 
   <main>
-    <div class="container">
+    <div class="container  clear" id="login">
       <div class="left-side">
         <div class="login-container">
           <h2>LOG IN</h2>
@@ -37,17 +37,30 @@
         <button class="iphone-btn" onclick="location.href='https://github.com/azarovalex/azChat-iOS'">Download azChat for iOS</button>
       </div>
     </div>
-    <div style="clear: both;"></div>
+    
     <div class="color-bgd">
       <div class="container">
         <h1>azChat - Chat. Secure. Simple.</h1>
-        <h4>With azChat you will get fast, simple, secure messaging for free*.</h4>
-        <h6>* You are going to pay for the internet though.</h6>
-        <h2>Check out what you can do.</h2>
+        <p>With azChat you will get fast, simple, secure messaging for free*.</p>
+        <p class="footnote">* You are going to pay for the internet though.</p>
+        <h2>Check out what you can do:</h2>
         <ul>
-          <li></li>
+          <li><strong>Connect</strong> from distant locations</li>
+          <li><strong>Synchronize</strong> across your devices</li>
+          <li><strong>Enjoy</strong> our app</li>
+          <li><strong>Donate</strong> for further developing and bug fixing</li>
         </ul>
+        
       </div>
+    </div>
+    
+    <div class="container email-form">
+      <h1>Try it for free</h1>
+      <h4>Already using azChat? <a href="#login">Sing in here.</a></h4>
+      <form>
+        <input type="email" placeholder="Your email address">
+        <input type="submit" value="Get started" onclick="alert('Not implemented yet');">
+      </form>
     </div>
   </main>
 

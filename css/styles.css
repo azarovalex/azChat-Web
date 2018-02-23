@@ -1,29 +1,30 @@
 body {
   font-family: 'Comfortaa', sans-serif;
-  font-size: 2vh;
+  font-size: 1rem;
   margin: 0;
 }
 
 .container {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 20px;
+}
+
+.clear:after {
+    clear: both;
+    content: "";
+    display: table;
 }
 
 main {
-  margin-top: 13vh;
-}
-
-.color-bgd {
-  background-color: lightblue;
-  margin: 20px 0px;
+  margin-top: 6rem;
 }
 
 /*############ Nav bar #############*/
 
 header {
   background: linear-gradient(#4b51d6, #2a40b5);
-  height: 12vh;
+  height: 6rem;
   position: fixed;
   top: 0;
   left: 0;
@@ -31,37 +32,37 @@ header {
   overflow: hidden;
 }
 
-ul,
-li {
+header ul,
+header li {
   margin: 0;
   padding: 0;
 }
 
-ul {
+header ul {
   float: right;
-  line-height: 12vh;
+  line-height: 6rem;
 }
 
-li {
+header li {
   list-style: none;
   float: left;
   margin-right: 2vw;
 }
 
-li a {
+header li a {
   color: white;
   text-decoration: none;
 }
 
-li a:hover {
+header li a:hover {
   color: #6fb98f;
 }
 
-.logo {
+header .logo {
   color: white;
-  font-size: 4vh;
+  font-size: 2rem;
   float: left;
-  line-height: 12vh;
+  line-height: 6rem;
 }
 
 
@@ -102,7 +103,6 @@ li a:hover {
   padding: 12px;
   margin: 10px 0px;
   border-radius: 5px;
-  transition-duration: 0.4s;
 }
 
 .login-container input[type="email"],
@@ -123,6 +123,7 @@ li a:hover {
 .login-container input[type="password"]:focus,
 .login-container input[type="submit"]:focus {
   box-shadow: 0px 2px 10px 5px #ccc;
+  transition-duration: 0.4s;
 }
 
 .login-container input[type="submit"]:hover {
@@ -161,9 +162,74 @@ li a:hover {
 }
 
 
+/* ############# Color background ##############*/
+.color-bgd {
+  background: linear-gradient(#0084ff, #22c8ff);
+  color: white;
+  margin-top: 40px;
+  padding: 50px 0px;
+}
+
+.color-bgd li {
+  margin: 10px;
+}
+
+.color-bgd li strong {
+  color: gold;
+}
+
+p.footnote {
+  font-size: 0.6rem;
+  margin-top: 0;
+}
+
+
+/*################ Email form ##################*/
+
+.email-form {
+  margin: 50px auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.email-form form input {
+  background: #fff;
+  color: #555;
+  box-sizing: border-box;
+  border: 1px solid #666;
+  outline: none;
+  font-family: inherit;
+  font-size: 1em;
+  padding: 12px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+}
+
+.email-form form input[type="submit"] {
+  background: #28d;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.email-form form input[type="email"] {
+  width: 50%;
+}
+
+.email-form form input[type="submit"]:hover {
+  background: #17c;
+  box-shadow: 0px 2px 10px 4px #bbb;
+}
+
+.email-form form input[type="email"]:hover {
+  box-shadow: 0px 2px 10px 5px #ccc;
+}
+
+
 /*################### Footer ###################*/
+
 footer {
-/*  position: absolute;*/
   
   background-color: #eee;
   color: black;
