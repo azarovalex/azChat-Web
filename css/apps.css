@@ -1,0 +1,18 @@
+div.app {
+  border-bottom: 1px solid lightgray;
+  text-align: center;
+}
+
+div.app h2 {
+  padding-top: 20px;
+}
+
+
+div.color-bgd a {
+  color: red;
+}
+
+div.feature div p {
+  text-align: left;
+  line-height: 1.5rem;
+}
