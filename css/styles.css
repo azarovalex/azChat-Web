@@ -1,3 +1,7 @@
+html {
+  font-size: 100%;
+}
+
 body {
   font-family: 'Comfortaa', sans-serif;
   font-size: 1rem;
@@ -81,7 +85,7 @@ header .logo {
 }
 
 .right-side {
-  width: auto;
+  width: 40%;
 }
 
 /*############### Left side #################*/
@@ -164,7 +168,7 @@ header .logo {
 
 /* ############# Color background ##############*/
 .color-bgd {
-  background: linear-gradient(#0084ff, #22c8ff);
+  background: linear-gradient(#0062cc, #22c8cc);
   color: white;
   margin-top: 40px;
   padding: 50px 0px;
