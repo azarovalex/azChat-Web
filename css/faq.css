@@ -1,0 +1,25 @@
+.faq-navigation {
+  padding: 20px;
+  border-bottom: 2px solid lightgrey;
+}
+
+.faq-navigation li {
+  margin: 10px;
+}
+
+.faq-navigation li a {
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
+.faq-navigation li a:hover {
+  text-decoration: underline;
+}
+
+.faq-content p {
+  margin-left: 10px;
+}
+
+.faq-content h3 {
+  margin-top: 40px;
+}
